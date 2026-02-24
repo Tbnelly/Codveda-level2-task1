@@ -4,6 +4,7 @@ import PageTransition from '../components/PageTransition';
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import '../css/Contact.css';
+import { FaMailBulk } from 'react-icons/fa';
 
 /**
  * Contact Page Component
@@ -143,7 +144,7 @@ const Contact = () => {
 
             {/* Contact Information */}
             <div className="sidebar-card">
-              <h3>📧 Contact Information</h3>
+              <h3><FaMailBulk /> Contact Information</h3>
               <div className="contact-details">
                 <div className="contact-item">
                   <strong>Email:</strong>
@@ -158,7 +159,7 @@ const Contact = () => {
 
             {/* Social Links */}
             <div className="sidebar-card">
-              <h3>🌐 Connect With Me</h3>
+              <h3> Connect With Me</h3>
               <div className="social-links">
                 <a 
                   href="https://github.com/Tbnelly" 
